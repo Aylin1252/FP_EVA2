@@ -30,7 +30,7 @@ public class EVA2_28_BUSCAR {
         System.out.println("valor a buscar:");
         valor = captu.nextInt();
         for (int i=0;i<valores.length;i++){
-            if(valor==valores[i]){
+            if(valor==valores[i]){//if repite hasta el numero q quieres encontrar
                 System.out.println("valor encontrado");
                 System.out.println("posicion:"+ i);
                 break;//terminar ciclo

@@ -14,7 +14,14 @@ public class EVA2_29_CONTINUE {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // continue-->detiene la iteracion (repeticion)actual
+        //imprimir numeros pares
+        for (int i = 0;i<100;i++){
+            int resi=i %2;
+            if(resi!=0)
+                continue;//aqui se interrumpe el ciclo
+            System.out.println(i+"-");
+        }
     }
     
 }
